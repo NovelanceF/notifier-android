@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/nf_title_drawer"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:src="@drawable/title"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/nf_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender:"
+        android:layout_toRightOf="@id/nf_title_drawer"
+        android:textSize="25sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff898989"/>
+
+    <Button
+        android:id="@+id/nf_taged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="＋"
+        android:typeface="serif"
+        android:textColor="#aaaaaa"
+        android:background="@drawable/button"
+        android:textSize="32sp"
+        android:paddingLeft="-12dp"
+        android:layout_marginRight="-15dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/nf_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body"
+        android:lineSpacingExtra="2dp"
+        android:textSize="12sp"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/nf_title_drawer"
+        android:textColor="#ff999999"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nf_time"
+        android:layout_alignParentRight="true"
+        android:text="time"
+        android:textSize="12sp"
+        android:textColor="#ffaaaaaa"
+        android:layout_below="@id/nf_body"
+        android:maxLength="16"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/clock"
+        android:layout_below="@id/nf_body"
+        android:layout_toLeftOf="@+id/nf_time"
+        android:alpha="0.55"
+        android:layout_marginTop="7dp"/>
+
+</RelativeLayout>

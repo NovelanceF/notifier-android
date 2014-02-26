@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <drawable name="drawer_text_color">#ffcfcfcf</drawable>
+    <drawable name="action_bar_back">#ffdfdfdf</drawable>
+
+    <drawable name="button_pressed">#11000000</drawable>
+    <drawable name="button_unpressed">#00000000</drawable>
+
+    <drawable name="drawer_button_pressed">#75f0685a</drawable>
+</resources>
